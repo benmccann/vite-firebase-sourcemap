@@ -3,9 +3,11 @@
 
   let loaded = false;
 
-  function onClick() {
     const cloudFunctions = functions();
     console.log("Functions:", cloudFunctions);
+
+
+  function onClick() {
     loaded = true;
   }
 </script>
