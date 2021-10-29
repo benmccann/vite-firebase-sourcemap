@@ -8,7 +8,7 @@ export default {
 		adapter: adapter(),
 		vite: {
 			ssr: {
-				noExternal: ['@firebase/app', '@firebase/functions']
+				external: ['whatwg-url', 'node-fetch']
 			}
 		}
 	}
