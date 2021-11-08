@@ -1,2 +1,7 @@
 # sveltekit-firebase
-Created with CodeSandbox
+
+To reproduce:
+```
+pnpm install
+pnpm run dev
+```
